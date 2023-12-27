@@ -20,16 +20,16 @@ function App() {
     <div className='app'>
 
       <br/>
-      <h1>The Software Testing Process</h1>
+      <h1>Software Testing</h1>
       <br/>
 
       <ul className='navigation-menu'>
-        <li className='menu-item' onClick={() => handleMenuClick(0)}>Home</li>
-        <li className='menu-item' onClick={() => handleMenuClick(1)}>1. Planning</li>
-        <li className='menu-item' onClick={() => handleMenuClick(2)}>2. Designing</li>
-        <li className='menu-item' onClick={() => handleMenuClick(3)}>3. Executing</li>
-        <li className='menu-item' onClick={() => handleMenuClick(4)}>4. Reporting</li>
-        <li className='menu-item' onClick={() => handleMenuClick(5)}>5. Closing</li>
+        <li className='menu-item' onClick={() => handleMenuClick(0)}>Fundamentals of Testing</li>
+        <li className='menu-item' onClick={() => handleMenuClick(1)}>Testing Throughout the Software Development Lifecycles</li>
+        <li className='menu-item' onClick={() => handleMenuClick(2)}>Static Testing</li>
+        <li className='menu-item' onClick={() => handleMenuClick(3)}>Test Analysis and Design</li>
+        <li className='menu-item' onClick={() => handleMenuClick(4)}>Managing the Test Activities</li>
+        <li className='menu-item' onClick={() => handleMenuClick(5)}>Test Tools</li>
         <li className='menu-item' onClick={() => handleMenuClick(6)}>Quiz</li>
       </ul>
 

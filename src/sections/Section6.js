@@ -152,6 +152,51 @@ class Section6 extends Component {
             "d) Requirement specification for the next project"],
         correctAnswer: "b) Source code written by the developers",
       },
+      {
+        question: "During a period of intensive project overtime, a system architecture document is sent to various project participants, announcing a previously-unplanned technical review to occur in one week. No adjustments are made to the participants' list of assigned tasks. Based on this information alone, which of the following is a factor for review success that is MISSING?",
+        options: [
+            "a) Appropriate review type",
+            "b) Adequate time to prepare",
+            "c) Sufficient metrics to evaluate the author",
+            "d) Well-managed review meeting"],
+        correctAnswer: "b) Adequate time to prepare",
+      },
+      {
+        question: "Which of the following statements about static testing is MOST true?",
+        options: [
+            "a) Static testing is a cheap way to detect and remove defects",
+            "b) Static testing makes dynamic testing less relevant",
+            "c) Static testing makes it impossible to trigger run-time problems early in the lifecycle",
+            "d) Any work product is appropriate for static testing"],
+        correctAnswer: "a) Static testing is a cheap way to detect and remove defects",
+      },
+      {
+        question: "Which of the following statements on review process activities is CORRECT?",
+        options: [
+            "a) As part of review planning, the review leader completes a defect log so that anomalies can be recorded",
+            "b) As part of communication and analysis, the reviewers use checklists to identify anomalies in the work product under review",
+            "c) As part of the review meeting, the reviewers create defect reports based on the checklists provided for the review",
+            "d) As part of the review initiation, the reviewers receive the checklists needed for the review"],
+        correctAnswer: "d) As part of the review initiation, the reviewers receive the checklists needed for the review",
+      },
+      {
+        question: "Which of the following BEST matches the descriptions (1 - 5) with the different categories of test techniques? 1. Coverage is measured based on a selected structure of the test object 2. The processing within the test object is checked 3. Tests are based on defects' likelihood and their distribution 4. Deviations from the requirements are checked 5. User stories are used as the test basis  Using notation for the following 3 options: Black - Black-box test techniques White - White-box test techniques Experience - Experience-based test techniques",
+        options: [
+            "a) Black - 4, 5 White - 1, 2; Experience - 3",
+            "b) Black - 3 White - 1, 2; Experience - 4, 5",
+            "c) Black - 4 White - 1, 2; Experience - 3, 5",
+            "d) Black - 1, 3, 5 White - 2; Experience - 4"],
+        correctAnswer: "a) Black - 4, 5 White - 1, 2; Experience - 3",
+      },
+      {
+        question: "Which of the following descriptions of statement coverage is CORRECT?",
+        options: [
+            "a) It is a metric, which is the percentage of test cases that have been executed",
+            "b) 100% statement coverage ensures that all executable statements in the source code have been exercised at least once",
+            "c) 100% statement coverage will detect all defects that are data dependent",
+            "d) It is a metric, which is the number of executable statements that have been executed"],
+        correctAnswer: "b) 100% statement coverage ensures that all executable statements in the source code have been exercised at least once",
+      },
       ],
     };
   }

@@ -1,4 +1,5 @@
 .section{
-    height: 75vh;
+    height: 60vh;
     border-radius: 9px/8px;
+    overflow-y: scroll;
 }

@@ -2,7 +2,13 @@ import './Sections.css'; // Import the stylesheet
 
 function Section1 () {
     return (
-        <h2>Test Planning & Control</h2>
+
+        <div className='section'>
+
+            <h2>Testing Throughout the Software Development Lifecycles</h2>
+        
+        </div>
+        
     );
 }
 

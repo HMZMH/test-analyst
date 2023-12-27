@@ -2,7 +2,13 @@ import './Sections.css'; // Import the stylesheet
 
 function Section4 () {
     return (
-        <h2>Evaluating Exit Criteria & Reporting</h2>
+
+        <div className='section'>
+
+            <h2>Managing the Test Activities</h2>
+
+        </div>
+        
     );
 }
 
