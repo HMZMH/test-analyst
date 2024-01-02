@@ -8,7 +8,6 @@ import Section4 from './sections/Section4';
 import Section5 from './sections/Section5';
 import Exam1 from './sections/Exam1';
 import Exam2 from './sections/Exam2';
-import Exam3 from './sections/Exam3';
 
 function App() {
 
@@ -33,7 +32,6 @@ function App() {
         <li className='menu-item' onClick={() => handleMenuClick(5)}>Test Tools</li>
         <li className='menu-item' onClick={() => handleMenuClick(6)}>Exam 1</li>
         <li className='menu-item' onClick={() => handleMenuClick(7)}>Exam 2</li>
-        <li className='menu-item' onClick={() => handleMenuClick(8)}>Exam 3</li>
       </ul>
 
       <div className='content-window'>
@@ -45,7 +43,6 @@ function App() {
           {currentContent === 5 && <Section5 />}
           {currentContent === 6 && <Exam1/>}
           {currentContent === 7 && <Exam2/>}
-          {currentContent === 8 && <Exam3/>}
       </div>      
 
     </div>

@@ -550,7 +550,7 @@ class Exam1 extends Component {
       <div className='container'>
         {!quizStarted ? (
           <div className='quiz-start'>
-            <h3>Foundational ISTQB Sample Questions</h3>
+            <h3>Foundational ISTQB Sample Exam 1</h3>
             <button className="start-button" onClick={this.startQuiz}>
               Start Quiz
             </button>

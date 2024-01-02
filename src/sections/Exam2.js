@@ -235,7 +235,7 @@ class Exam2 extends Component {
             correctAnswer: "c) The tester(s) must be involved in the team conversation using the INVEST checklist",
           },
           {//25
-            question: "A daily radiation recorder for plants produces a sunshine score based on a combination of the number of hours a plant is exposed to the sun (below 3 hours, 3 to 6 hours or above 6 hours) and the average intensity of the sunshine (very low, low, medium, high). Given the following test cases: [INSERT IMAGE] What is the minimum number of additional test cases that are needed to ensure 100% Each Choice coverage of the VALID INPUT equivalence partitions?",
+            question: "A daily radiation recorder for plants produces a sunshine score based on a combination of the number of hours a plant is exposed to the sun (below 3 hours, 3 to 6 hours or above 6 hours) and the average intensity of the sunshine (very low, low, medium, high). Given the following test cases (view the table below) - what is the minimum number of additional test cases that are needed to ensure 100% Each Choice coverage of the VALID INPUT equivalence partitions?",
             options: [
               "a) 1",
               "b) 2",
@@ -253,7 +253,7 @@ class Exam2 extends Component {
             correctAnswer: "c) 0.4, 0.5, 25.0 25.1",
           },
           {//27
-            question: "Consider the following decision table for the portion of an online airline reservation system that allows frequent flyers to redeem points for reward travel: [INSERT IMAGE] What is the minimum number of tests required to achieve 100% coverage of the decision table?",
+            question: "Consider the following decision table for the portion of an online airline reservation system that allows frequent flyers to redeem points for reward travel (view the table below) - what is the minimum number of tests required to achieve 100% coverage of the decision table?",
             options: [
               "a) 2",
               "b) 4",
@@ -262,7 +262,7 @@ class Exam2 extends Component {
             correctAnswer: "c) 5",
           },
           {//28
-            question: "Consider the following state transition diagram for a credit-card only, unattended gasoline pump: [INSERT IMAGE] Assume that you want to develop the minimum number of tests to achieve all valid transitions coverage in the state transition diagram. Assume further that each test must start at the beginning state, waiting for customer, and each test ends when a transition arrives at the beginning state. How many tests do you need?",
+            question: "Consider the following state transition diagram for a credit-card only, unattended gasoline pump (view the image below) - assume that you want to develop the minimum number of tests to achieve all valid transitions coverage in the state transition diagram. Assume further that each test must start at the beginning state, waiting for customer, and each test ends when a transition arrives at the beginning state. How many tests do you need?",
             options: [
               "a) 4",
               "b) 7",
@@ -343,7 +343,7 @@ class Exam2 extends Component {
             correctAnswer: "b) 16-24 person days",
           },
           {//37
-            question: "Given the following priorities and dependencies for these test cases: [INSERT IMAGE] Which of the following test execution schedules BEST considers the priorities and technical and logical dependencies?",
+            question: "Given the following priorities and dependencies for these test cases (view below image) - which of the following test execution schedules BEST considers the priorities and technical and logical dependencies?",
             options: [
               "a) TC1 – TC3 – TC4 – TC6 – TC2 – TC5",
               "b) TC4 – TC3 – TC1 – TC2 – TC5 – TC6",
@@ -432,7 +432,7 @@ class Exam2 extends Component {
       <div className='container'>
         {!quizStarted ? (
           <div className='quiz-start'>
-            <h3>Foundational ISTQB Sample Questions</h3>
+            <h3>Foundational ISTQB Sample Exam 2</h3>
             <button className="start-button" onClick={this.startQuiz}>
               Start Quiz
             </button>
