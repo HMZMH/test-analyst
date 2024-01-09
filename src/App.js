@@ -6,7 +6,7 @@ import Exam3 from './exams/Exam3';
 
 function App() {
 
-  const [currentContent, setCurrentContent] = useState(1);
+  const [currentContent, setCurrentContent] = useState(0);
 
   const handleMenuClick = (contentIndex) => {
     setCurrentContent(contentIndex);
