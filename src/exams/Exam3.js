@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import './Exams.css';
-import q25image from '../assets/exam2images/exam2q25image.png'
-import q27image from '../assets/exam2images/exam2q27image.png'
-import q28image from '../assets/exam2images/exam2q28image.png'
-import q37image from '../assets/exam2images/exam2q37image.png'
 
 class Exam3 extends Component {
     constructor(props) {
