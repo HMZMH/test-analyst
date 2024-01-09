@@ -523,11 +523,6 @@ class Exam3 extends Component {
             <br />
             <p>{currentQuestionObj.question}</p>
   
-            {currentQuestion === 24 && <img src={q25image} alt="Question 25" />}
-            {currentQuestion === 26 && <img src={q27image} alt="Question 27" />}
-            {currentQuestion === 27 && <img src={q28image} alt="Question 28" />}
-            {currentQuestion === 36 && <img src={q37image} alt="Question 37" />}
-  
             <ul className="options">
               {currentQuestionObj.options.map((option, index) => (
                 <li className='quiz-item' key={index} onClick={() => this.handleAnswerClick(option)}>
