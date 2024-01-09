@@ -525,7 +525,6 @@ class Exam1 extends Component {
         currentQuestion: currentQuestion + 1,
       });
     } else {
-      // Quiz completed, record end time
       this.setState({ quizCompleted: true, endTime: new Date() });
     }
   };
