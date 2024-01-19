@@ -36,7 +36,7 @@ class Exam1 extends Component {
               "d) The whole team, not just testers, has responsibility for the quality of the product",
               "e) Developers can focus on the testing on non-functional requirements (performance, usability, security, etc.)"
             ],
-            correctAnswer: "c) Testers can work with customer representatives to create acceptance tests",
+            correctAnswer: ["c) Testers can work with customer representatives to create acceptance tests", "d) The whole team, not just testers, has responsibility for the quality of the product" ],
           },
           {//3
             question: "Which of the following statements correctly describes the difference between testing and debugging?",
@@ -551,10 +551,12 @@ class Exam1 extends Component {
           <div className='quiz-start'>
             <h3>Foundational ISTQB Sample Exam 1</h3>
             <button className="start-button" onClick={this.startQuiz}>
-              Start Quiz
+              Start
             </button>
           </div>
+
         ) : !quizCompleted ? (
+          
           <div>
             <p className="question">Question {currentQuestion + 1} of {questions.length}:</p>
             <br />
@@ -573,8 +575,11 @@ class Exam1 extends Component {
               ))}
             </ul>
           </div>
+
         ) : (
+
           <div>
+
             <h4>Performance Report</h4>
             <p className="score">Your Score: {score} out of {questions.length}</p>
             {startTime && endTime && (
@@ -582,6 +587,12 @@ class Exam1 extends Component {
                 Time Taken: {((endTime - startTime) / 1000 / 60).toFixed(0)} minutes and {((endTime - startTime) / 1000 % 60).toFixed(2)} seconds
               </p>
             )}
+
+            <button className="restart-button" onClick={this.restartQuiz}>
+              Restart
+            </button>
+            <br/>
+
             <table className="answers">
               <thead>
                 <tr>
@@ -600,9 +611,6 @@ class Exam1 extends Component {
                 ))}
               </tbody>
             </table>
-            <button className="start-button" onClick={this.restartQuiz}>
-              Restart Quiz
-            </button>
           </div>
         )}
       </div>

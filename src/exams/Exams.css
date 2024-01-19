@@ -7,17 +7,36 @@
     margin-top: 25px;
     cursor: pointer;
     padding: 10px;
-    border: 2px solid darkcyan;
+    background-color: white;
+    color: black;
+    border: 0px solid;
     border-radius: 5px;
     transition: background-color 0.2s, color 0.2s;
-    display: inline-block; /* Display start button inline */
   }
   
   .start-button:hover {
     background-color: darkcyan;
-    color: #fff;
+    color: white;
   }
   
+  .restart-button{
+    text-align: end;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 0px solid;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .restart-button:hover {
+    background-color: darkcyan;
+    color: white;
+  }
+
   .question {
     font-size: 20px;
     margin-bottom: 10px;
@@ -25,17 +44,16 @@
   
   .options {
     list-style: none;
-    padding: 0;
     display: flex;
     flex-direction: column;
   }
   
   .quiz-item {
-    margin: 10px 0;
+    margin-top: 20px;
     cursor: pointer;
     padding: 10px;
     border: 2px solid darkcyan;
-    border-radius: 5px;
+    border-radius: 9px/8px;
     transition: background-color 0.2s, color 0.2s;
   }
   
@@ -57,19 +75,18 @@
   
   /* Table styles for the performance report */
   .answers {
-    margin-top: 20px;
+    margin: 25px;
     border-collapse: collapse;
-    width: 90vw;
   }
   
   .answers th, .answers td {
-    border: 2px solid darkcyan;
+    border: 2px solid black;
     padding: 8px;
     text-align: left;
   }
   
   .answers th {
-    background-color: darkcyan;
+    background-color: black;
     color: #fff;
   }
   
@@ -84,7 +101,7 @@
   }
   
   .container{
-    height: 60vh;
+    height: 85vh;
     overflow-y: scroll;
   }
   
