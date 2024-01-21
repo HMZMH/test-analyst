@@ -19,7 +19,7 @@ class Exam1 extends Component {
       answers: [],
       questions: [
         {//1
-            question: "Which of the following statements is a valid objective for testing?",
+            question: (<div>Which of the following statements is a valid objective for testing?</div>),
             options: [
               "a) The test should start as late as possible so that the development had enough time to create a good product",
               "b) To validate whether the test object works as expected by the users and other stakeholders",
@@ -28,7 +28,8 @@ class Exam1 extends Component {
             correctAnswer: "b) To validate whether the test object works as expected by the users and other stakeholders",
           },
           {//2
-            question: "Which of the following best represent advantages of the Whole Team approach? There are TWO correct options.",
+            question: (<div>Which of the following best represent advantages of the Whole Team approach?<br/><br/>
+            There are TWO correct options, but pick the FIRST of them.</div>),
             options: [
               "a) Office costs are minimised as the testers do not need to be co-located with the developers and can have their own workspace",
               "b) Business representatives can select the tools the team will use during the project",
@@ -39,7 +40,7 @@ class Exam1 extends Component {
             correctAnswer: ["c) Testers can work with customer representatives to create acceptance tests", "d) The whole team, not just testers, has responsibility for the quality of the product" ],
           },
           {//3
-            question: "Which of the following statements correctly describes the difference between testing and debugging?",
+            question: (<div>Which of the following statements correctly describes the difference between testing and debugging?</div>),
             options: [
               "a) Testing identifies the cause of defects; debugging analyses the defects and proposes prevention activities",
               "b) Dynamic testing shows failures caused by defects; debugging eliminates the defects, which are the source of failures",
@@ -48,7 +49,8 @@ class Exam1 extends Component {
             correctAnswer: "b) Dynamic testing shows failures caused by defects; debugging eliminates the defects, which are the source of failures",
           },
           {//4
-              question: "As a result of risk analysis, more testing is being directed to those areas of the system under test where initial testing found more defects than average. Which of the following testing principles is being applied?",
+              question: (<div>As a result of risk analysis, more testing is being directed to those areas of the system under test where initial testing found more defects than average.<br/><br/>
+              Which of the following testing principles is being applied?</div>),
               options: [
                   "a) Tests wear out",
                   "b) Testing is context dependent",
@@ -75,7 +77,8 @@ class Exam1 extends Component {
             correctAnswer: "c) ii & iv",
         },
         {//6
-            question: "Which of the following is most likely to require the test process to change? There are TWO correct options.",
+            question: (<div>Which of the following is most likely to require the test process to change?<br/><br/>
+            There are TWO correct options, but pick the FIRST of them.</div>),
             options: [
                 "a) A new set of user stories are added to the backlog of an ongoing project",
                 "b) A new 3rd party company is appointed which uses a different test management tool set",
@@ -143,7 +146,7 @@ class Exam1 extends Component {
             correctAnswer: "d) True - 1, 4; False - 2, 3",
         },
         {//10
-            question: "Which of the following statements BEST describes the TDD (Test-Driven Development) approach?",
+            question: (<div>Which of the following statements BEST describes the TDD (Test-Driven Development) approach?</div>),
             options: [
                 "a) In TDD the code is written first, then the tests are written to verify that the code is correct",
                 "b) Tests are written first, then code is written to satisfy the tests",
@@ -152,7 +155,7 @@ class Exam1 extends Component {
             correctAnswer: "b) Tests are written first, then code is written to satisfy the tests",
         },
         {//11
-            question: "Which of the following statements about test levels is CORRECT?",
+            question: (<div>Which of the following statements about test levels is CORRECT?</div>),
             options: [
                 "a) Component integration testing focuses on testing the interfaces and interactions between integrated systems and is usually peformed by developers",
                 "b) System testing is normally performed by the end users in a representative test environment and relies heavily on specifications",
@@ -161,7 +164,7 @@ class Exam1 extends Component {
             correctAnswer: "c) Component testing often requires specific support such as test harnesses and unit testing frameworks in the development environments",
         },
         {//12
-          question: "Which one of the following is TRUE?",
+          question: (<div>Which one of the following is TRUE?</div>),
           options: [
               "a) The purpose of regression testing is to check if the correction has been successfully implemented, while the purpose of confirmation testing is to confirm that the correction has no side effects",
               "b) The purpose of regression testing is to detect unintended side effects, while the purpose of confirmation testing is to check if the system is still working in a new environment",
@@ -189,7 +192,7 @@ class Exam1 extends Component {
         correctAnswer: "d) ii & iii",
       },
       {//14
-        question: "Which of the following statements about the impact of DevOps on testing is CORRECT?",
+        question: (<div>Which of the following statements about the impact of DevOps on testing is CORRECT?</div>),
         options: [
             "a) Testing will need additional resources to support test automation maintenance",
             "b) Automation through the delivery pipeline will free up the testers to do the manual regression testing",
@@ -198,7 +201,7 @@ class Exam1 extends Component {
         correctAnswer: "a) Testing will need additional resources to support test automation maintenance",
       },
       {//15
-        question: "Which of the following work products is a suitable subject for static analysis?",
+        question: (<div>Which of the following work products is a suitable subject for static analysis?</div>),
         options: [
             "a) Test plan for the next release",
             "b) Source code written by the developers",
