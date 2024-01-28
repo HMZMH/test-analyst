@@ -37,25 +37,21 @@ h1{
   color: white;
 }
 
-.navigation-menu{
-  margin-top: -65px;
-  border-radius: 9px/8px;
-  border-bottom: solid 1px darkcyan;
-  border-right: solid 1px darkcyan;
-  border-image: linear-gradient(to left, darkcyan 50%, transparent 75%) 1;
-  padding: 15px;
+.dropdown-menu {
+  margin-top: 20px;
+  text-align: end;
 }
 
-.menu-item{
-  display: inline-block;
-  color: white;
-  list-style: none;
-  margin-left: 25px;
-}
-
-.menu-item:hover{
-  color: darkcyan;
+.dropdown-button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+.dropdown-option {
+  font-size: 16px;
 }
 
 .content-window{

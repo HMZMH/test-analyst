@@ -823,7 +823,7 @@ class Exam3 extends Component {
           <div className='quiz-start'>
             <h3>Foundational ISTQB Sample Exam 3</h3>
             <button className="start-button" onClick={this.startQuiz}>
-              Start Quiz
+              Start
             </button>
           </div>
         ) : !quizCompleted ? (
@@ -868,7 +868,7 @@ class Exam3 extends Component {
               </tbody>
             </table>
             <button className="start-button" onClick={this.restartQuiz}>
-              Restart Quiz
+              Restart
             </button>
           </div>
         )}
